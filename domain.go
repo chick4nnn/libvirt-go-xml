@@ -2496,7 +2496,7 @@ type DomainGenID struct {
 type Domain struct {
 	XMLName        xml.Name              `xml:"domain"`
 	Type           string                `xml:"type,attr,omitempty"`
-	ID             *int                  `xml:"id,attr"`
+	ID             *string                  `xml:"id,attr"`
 	Name           string                `xml:"name,omitempty"`
 	UUID           string                `xml:"uuid,omitempty"`
 	GenID          *DomainGenID          `xml:"genid"`
